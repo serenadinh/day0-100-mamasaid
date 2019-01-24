@@ -2,8 +2,8 @@
 	padding: 0px;
 	margin: 0px;
 }
-
-body {
+/* Gradient Landing Background*/
+.landing-gradient {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
@@ -13,7 +13,7 @@ body {
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
 }
-/* Gradient Landing Background*/
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
