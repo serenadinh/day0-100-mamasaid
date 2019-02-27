@@ -54,14 +54,16 @@ p {
 	/*still need to add black opacity*/
 }
 .about {
-	padding: 150px;
+	padding: 100px;
 }
 .about-p {
-	font-size: 25px;
+	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
+	padding-top: 15px; 
 }
 .about-credit {
 	color: #C5C6B6;
+	padding-top: 15px;
 }
 .about-credit a {
 	color: #f9c00c;
