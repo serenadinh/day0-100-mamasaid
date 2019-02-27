@@ -1,10 +1,68 @@
+/*CSS font
+
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Crimson Text', serif;
+*/
+
 *{
 	padding: 0;
 	margin: 0;
-}
-html {
-
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
 }
 body {
+	width: 100%;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+h1 {
+	font-weight: bold;
+	font-size: 50px;
+	color: #f9c00c;
+	text-transform: uppercase;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand {
+	font-family: 'Satisfy', cursive;
+	font-weight: bold;
+	font-size:  50px;
+}
+.nav-item {
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	margin-right: 0;
+	color: #000000;
+	position: right;
+
+}
+.landing-img {
+	width: 100%;
+	margin: auto;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: none;
+	/*still need to add black opacity*/
+}
+.about {
+	padding: 150px;
+}
+.about-p {
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+.about-credit {
+	color: #C5C6B6;
+}
+.about-credit a {
+	color: #f9c00c;
 }
