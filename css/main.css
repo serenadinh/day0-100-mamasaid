@@ -31,12 +31,15 @@ h1 {
 }
 p {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
 }
+/*-----LOGO-----*/
 .navbar-brand {
 	font-family: 'Satisfy', cursive;
 	font-weight: bold;
 	font-size:  50px;
 }
+/*-----NAVAGATION-----*/
 .nav-item {
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
@@ -45,6 +48,7 @@ p {
 	position: right;
 
 }
+/*-----LANDING PAGE-----*/
 .landing-img {
 	width: 100%;
 	margin: auto;
@@ -53,18 +57,26 @@ p {
 	background-repeat: none;
 	/*still need to add black opacity*/
 }
+/*-----ABOUT-----*/
 .about {
 	padding: 100px;
 }
 .about-p {
-	font-size: 20px;
-	font-family: 'Open Sans', sans-serif;
-	padding-top: 15px; 
+	padding-top: 15px;
+	width: 100%;
+	margin: auto; 
 }
 .about-credit {
 	color: #C5C6B6;
 	padding-top: 15px;
+	padding-bottom: 15px;
 }
 .about-credit a {
 	color: #f9c00c;
+}
+/*-----POPULAR-----*/
+.popular-p {
+	padding-bottom: 15px;
+	width: 100%;
+	margin: auto;
 }
